@@ -1,0 +1,753 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Lezzetin Tadı",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://picsum.photos/400",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "2",
+      "name": "Aromalı Ev",
+      "minPrice": 40,
+      "estimatedDelivery": 35,
+      "photo": "https://picsum.photos/401",
+      "rating": 4.5,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "3",
+      "name": "Lezzet Köşesi",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://picsum.photos/402",
+      "rating": 4.8,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "4",
+      "name": "Keyifli Mekan",
+      "minPrice": 45,
+      "estimatedDelivery": 40,
+      "photo": "https://picsum.photos/403",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "5",
+      "name": "Tadı Damağınızda",
+      "minPrice": 55,
+      "estimatedDelivery": 55,
+      "photo": "https://picsum.photos/404",
+      "rating": 4.9,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "6",
+      "name": "Lezzet Pınarı",
+      "minPrice": 55,
+      "estimatedDelivery": 40,
+      "photo": "https://picsum.photos/405",
+      "rating": 4.4,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "7",
+      "name": "Sağlıklı İstasyon",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://picsum.photos/406",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "8",
+      "name": "Baharatlı Lezzetler",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://picsum.photos/407",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "desc": "Taze somon balığı ızgara edilmiş, yanında sebzelerle servis edilir.",
+      "category": "Deniz Ürünleri",
+      "price": 45.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/200",
+      "restaurantId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/201",
+      "restaurantId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/203",
+      "restaurantId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://picsum.photos/203",
+      "restaurantId": "3"
+    },
+    {
+      "id": "5",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/204",
+      "restaurantId": "4"
+    },
+    {
+      "id": "6",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/205",
+      "restaurantId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/206",
+      "restaurantId": "7"
+    },
+    {
+      "id": "8",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/207",
+      "restaurantId": "8"
+    },
+    {
+      "id": "9",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://picsum.photos/208",
+      "restaurantId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/209",
+      "restaurantId": "5"
+    },
+    {
+      "id": "11",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/210",
+      "restaurantId": "4"
+    },
+    {
+      "id": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "desc": "Çıtır çıtır kızarmış tavuk kanatları, yanında sos ile servis edilir.",
+      "category": "Atıştırmalıklar",
+      "price": 9.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "2"
+    },
+    {
+      "id": "42",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "2"
+    },
+    {
+      "id": "53",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/212",
+      "restaurantId": "3"
+    },
+    {
+      "id": "24",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://picsum.photos/213",
+      "restaurantId": "4"
+    },
+    {
+      "id": "35",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/214",
+      "restaurantId": "5"
+    },
+    {
+      "id": "76",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/215",
+      "restaurantId": "6"
+    },
+    {
+      "id": "57",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/216",
+      "restaurantId": "7"
+    },
+    {
+      "id": "38",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/217",
+      "restaurantId": "8"
+    },
+    {
+      "id": "29",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://picsum.photos/210",
+      "restaurantId": "5"
+    },
+    {
+      "id": "310",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "4"
+    },
+    {
+      "id": "111",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/212",
+      "restaurantId": "2"
+    }
+  ],
+  "cart": [
+    {
+      "id": "57680fb0-c41d-4aa9-937a-3e6b32be4da2",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 10
+    },
+    {
+      "id": "0cfda4dd-040a-477b-8e13-84a1092827fe",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "b0b7dc11-c32a-4a11-b770-454a9323e64a",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "ccc53912-94db-43a3-b446-b52a0aeee13e",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "c4749b3a-0e48-4628-9850-de08f65faf02",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 10
+    },
+    {
+      "id": "9d019bcc-7232-40f0-a7b1-1fdf0f69de18",
+      "productId": "6",
+      "title": "Güveçte Et Sote",
+      "price": 22.99,
+      "photo": "https://picsum.photos/205",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 6
+    },
+    {
+      "id": "7207842c-d9ad-4e7c-a0cf-a8d8a4631964",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "e34659dd-a124-4dd3-8fef-696f6f34d7f4",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "a3c45d2f-61e4-4a7e-8309-65bc336c3911",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "28a48014-63e7-47f8-9ed4-be2cff1d6668",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "3ff82919-1945-471b-8d81-e39b3c51622b",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "bf6c890c-193b-4d8c-a5a8-ce17f939a9d9",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "563ec2f5-2eb0-4930-8fbb-81a43462beb4",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "dcefab6f-c595-452d-ae3b-67e1647343fe",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "ca466268-dbc4-4961-ad97-24b24f406bf5",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "16aaee21-7cd3-423c-be07-92d495e67dc0",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "e085254d-0985-4f0e-85ba-6d137b17a8e9",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "1351c0a4-0949-4466-9410-2e5c7919cebf",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "bb9f3202-a1c5-46f6-9778-2e209a98176f",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "0055cc1c-ed3c-4f1b-a964-29e20e6fe7b7",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "4932672b-d255-4dae-a687-bdbf7d1a5fdc",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "81464171-53d3-4e79-a565-10b64e350b27",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "8ab53d24-3b59-4501-934c-fd89632e79b5",
+      "productıd": "38",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "9f98aa81-c8eb-4f45-8402-d1bbc6fdd250",
+      "productıd": "8",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "d1db5c56-fb08-409e-af2a-a2d33dfc4fbb",
+      "productıd": "38",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "9619e2a4-09c0-44a4-a91e-867772f85f5c",
+      "productıd": "38",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "e18b12ec-1b6e-4605-99d4-e2e81ffe98d6",
+      "productıd": "38",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "03dd1b7e-598f-4c35-8885-bf382052747d",
+      "productıd": "38",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 1
+    },
+    {
+      "id": "3f900365-b548-4372-81cd-c88e088535ce",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "54054c0a-c75a-4c22-a6ab-c95402dc92e2",
+      "productıd": "3",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "55f5f41a-ec24-4da9-b17e-32f07b117853",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "38adf9ca-291b-427b-904e-1a32db803ebb",
+      "productıd": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "fb7d411e-c75d-48b8-971b-13854297f8db",
+      "productıd": "3",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "ceb2b5e4-36c7-4c35-9ee6-a25a7b8d0409",
+      "productıd": "3",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "3be758b6-634f-4dc1-970e-ff3e66697f46",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "e2946cf4-200e-4879-9207-9f6d39ecc1ee",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "9c48eb8d-4dbf-4c4b-b77f-2697c76ea7f8",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 2
+    },
+    {
+      "id": "2d834e13-e288-42f5-97fb-f464fc3cd472",
+      "productId": "3",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "7ce5c2bd-87c0-41c6-af90-50391a681ac6",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 2
+    },
+    {
+      "id": "5acc0152-0f56-4d2f-b8bb-da736a3c519a",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "8916816c-b8ed-4534-a0fc-d0c7b1cf64a0",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 7
+    },
+    {
+      "id": "40f01f64-6081-4994-a52a-e974099fcabc",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "c9607dd3-a1a5-48ad-93cc-ad25b8ce923d",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 3
+    },
+    {
+      "id": "a317bb16-02ce-4239-bc62-fad63b2fce3c",
+      "productId": "1",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "9106afd2-a2d8-4449-bdc2-bc52591920c2",
+      "productId": "3",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "eddea084-c2b6-427b-8b4c-8db89ab5e508",
+      "productId": "6",
+      "price": 22.99,
+      "photo": "https://picsum.photos/205",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "087fe7b4-ce6f-4195-9c14-89112ceade14",
+      "productId": "10",
+      "price": 16.99,
+      "photo": "https://picsum.photos/209",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "cd992546-4279-47f7-8830-9c123e88fe97",
+      "productId": "35",
+      "price": 10.99,
+      "photo": "https://picsum.photos/214",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "0906f886-d7e2-440f-9642-183a07db3539",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "dba0b499-d447-4212-bcb3-31c6e59719be",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "b62cf0be-6c86-4833-af86-a2a8c01b59d3",
+      "productId": "6",
+      "title": "Güveçte Et Sote",
+      "price": 22.99,
+      "photo": "https://picsum.photos/205",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "16e9b930-2429-455a-822e-02631b61e243",
+      "productId": "10",
+      "title": "Köri Tavuk",
+      "price": 16.99,
+      "photo": "https://picsum.photos/209",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "478d3c7b-3860-4b06-bcfb-42d2b7a8b750",
+      "productId": "35",
+      "title": "Fırın Makarna",
+      "price": 10.99,
+      "photo": "https://picsum.photos/214",
+      "restaurantName": "Tadı Damağınızda",
+      "amount": 1
+    },
+    {
+      "id": "fe53657b-c098-4574-b631-008f9e60f711",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 7
+    },
+    {
+      "id": "a8257e9f-008c-4081-81aa-dccbb6f829d5",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 3
+    }
+  ]
+}
